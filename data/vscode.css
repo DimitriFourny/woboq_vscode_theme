@@ -1,0 +1,54 @@
+@import "common.css";
+
+.code { font-family: "Droid Sans", monospace; }
+h1#breadcrumb span { display:none }
+hr { margin: 0; border-collapse:collapse; background-color: #e5e5e5; height:1px;border:none;}
+p.warnmsg { color: #D44; padding: 0 1ex; margin: 0.5ex 0; }
+.code th a { color: inherit }
+
+
+body, table.code, input, select, div#header, div#header + hr { background-color: #1e1e1e; color: #D4D4CE;}
+h1, h3, h2 { color: #D4D4CE; }
+
+.code th { background-color: #1e1e1e; color: #6D6D6D; }
+a { color: #D4D4CE; }
+#tooltip { background-color: #1e1e1e; color: #D4D4CE }
+#tooltip a { color: #CE9178;}
+hr { border: 1px  solid #333333 }
+input { background-color: #1e1e1e }
+#footer { color: #839496; }
+#header img { display:none }
+
+
+/* color style */
+/*.comment, */  .code i { color: #528D45; font-style: normal }
+/*.keyword, */  .code b { color: #AA86BA;  font-weight: bold; }
+/*.keytype, */  .code em { color: #377CD6;  font-weight:bold; font-style:normal }
+.code .string,  .code q { color: #CE9178; font-style: normal }
+.code q::before , .code q::after { content:none; }
+/*.directive,*/ .code u { color: #CE9178; text-decoration:none; }
+/*.num,      */ .code var { color: #2aa198; font-style: normal; }
+/*.char,     */ .code kbd, .code kdb { color: #dc322f }
+
+/* code a,  code dfn  */
+.code .ref { color:#D4D4CE}
+.code .decl { color: #DCC471; }
+.namespace, .enum, .typedef  { color: #45C3B0;}
+.code .type { color: #DCC471;}
+.code .local { color: #D4D4CE; }
+/*.typedef { color: #35938D }*/
+.code .member { color: #D4D4CE; }
+/*.call { color: #20f }*/
+.macro {  color: #D4D4CE; }
+/*.macro:hover { background-color:#BEFF9B; }*/
+/*
+.ref.col0 {color:#2400FF} .ref.col1 {color:#9C00FF} .ref.col2 {color:#D1008A} .ref.col3 {color:#FF0000} .ref.col4 {color:#FF4F00}
+.ref.col5 {color:#F69D00} .ref.col6 {color:#72D200} .ref.col7 {color:#00F718} .ref.col8 {color:#00BBCD} .ref.col9 {color:#0053FF}
+*/
+.code dfn { font-style:normal }
+.code .virtual { font-style: italic; }
+
+.highlight { background-color: #333333 !important; }
+th.highlight+td { background-color: #333333 !important; }
+
+.sideBox { background-color: #1e1e1e !important; border: 1px solid #333333;}
